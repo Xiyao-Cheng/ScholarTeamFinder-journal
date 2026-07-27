@@ -8,9 +8,9 @@ Manually assembling cross-disciplinary research teams is increasingly difficult 
 
 **ScholarTeamFinder** addresses these gaps through a three-stage pipeline:
 
-1. **TCSR (Text-Conditioned Scholar Retrieval)** — a box-embedding retrieval model built on SciBERT that retrieves candidate scholars relevant to a natural-language query, trained via a two-phase strategy that stabilizes box geometry before fine-tuning the encoder.
+1. **Text-Conditioned Scholar Retrieval** — a box-embedding retrieval model built on SciBERT that retrieves candidate scholars relevant to a natural-language query, trained via a two-phase strategy that stabilizes box geometry before fine-tuning the encoder.
 2. **User-Centric Team Formation** — a greedy team formation framework that fixes the querying PI and selects complementary Co-PIs by jointly optimizing marginal keyword coverage, a learned Collaboration-Aware Team Scorer (CATS), and structural diversity from the collaboration knowledge graph.
-3. **LJR (LLM-as-Judge Refinement)** — a semantic validation layer that classifies a candidate team as `pass`, `query_issue`, or `team_issue`, triggering re-retrieval or re-formation when the assembled team does not genuinely fit the proposal's research scope.
+3. **LLM-as-Judge Refinement(LJR)** — a semantic validation layer that classifies a candidate team as `pass`, `query_issue`, or `team_issue`, triggering re-retrieval or re-formation when the assembled team does not genuinely fit the proposal's research scope.
 
 
 ## Repository Structure
