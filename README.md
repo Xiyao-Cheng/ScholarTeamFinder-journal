@@ -29,7 +29,6 @@ scholarteamfinder/
 │   ├── llm_judge.py
 │   ├── query_understanding.py
 │   └── pipeline.py
-├── evaluation/                # Evaluation scripts (retrieval + team quality metrics)
 └── README.md
 ```
 
