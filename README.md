@@ -17,7 +17,6 @@ Manually assembling cross-disciplinary research teams is increasingly difficult 
 
 ```
 scholarteamfinder/
-├── data/                    # NSF grant data, Semantic Scholar scholar profiles
 ├── retrieval/                    # Text-Conditioned Scholar Retrieval (box embedding model)
 │   ├── model.py
 │   ├── train.py
