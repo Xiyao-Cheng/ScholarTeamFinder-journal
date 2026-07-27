@@ -22,7 +22,7 @@ scholarteamfinder/
 │   ├── model.py
 │   ├── train.py
 ├── team_formation/           # User-centric team formation module
-│   ├── formation.py
+│   ├── user_centric_team_formation.py
 │   ├── cats.py               # Collaboration-Aware Team Scorer
 │   └── kg_features.py        # Knowledge graph structural diversity features
 ├── ljr/                       # LLM-as-Judge Refinement module
