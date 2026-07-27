@@ -51,7 +51,7 @@ ScholarTeamFinder operates on NSF grant data paired with scholar profiles drawn 
 
 ## Usage
 
-### 1. Train the retrieval model (TCSR)
+### 1. Train the retrieval model
 
 ```bash
 python tcsr/train.py --data_dir data/training_data --phase both
