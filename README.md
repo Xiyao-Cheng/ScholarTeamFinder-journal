@@ -21,7 +21,6 @@ scholarteamfinder/
 ├── retrieval/                    # Text-Conditioned Scholar Retrieval (box embedding model)
 │   ├── model.py
 │   ├── train.py
-│   └── config.py
 ├── team_formation/           # User-centric team formation module
 │   ├── formation.py
 │   ├── cats.py               # Collaboration-Aware Team Scorer
