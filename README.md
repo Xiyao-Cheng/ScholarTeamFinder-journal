@@ -30,7 +30,6 @@ scholarteamfinder/
 │   ├── query_understanding.py
 │   └── pipeline.py
 ├── evaluation/                # Evaluation scripts (retrieval + team quality metrics)
-├── case_studies/               # Case study generation scripts
 └── README.md
 ```
 
